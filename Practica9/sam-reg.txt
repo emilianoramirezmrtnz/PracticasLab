@@ -1,0 +1,162 @@
+Hive (C:\Users\elias\Documents\chapo\9registros\SAM) is not dirty.
+
+samparse v.20220921
+(SAM) Parse SAM file for user & group mbrshp info
+
+
+User Information
+-------------------------
+Username        : Administrador [500]
+SID             : S-1-5-21-269786116-1385572242-1118145320-500
+Full Name       : 
+User Comment    : Cuenta integrada para la administración del equipo o dominio
+Account Type    : 
+Account Created : Fri Jan 28 00:21:26 2022 Z
+Name            :  
+Last Login Date : Thu Oct 21 15:29:31 2021 Z
+Pwd Reset Date  : Never
+Pwd Fail Date   : Never
+Login Count     : 7
+  --> Password does not expire
+  --> Account Disabled
+  --> Normal user account
+
+Username        : Invitado [501]
+SID             : S-1-5-21-269786116-1385572242-1118145320-501
+Full Name       : 
+User Comment    : Cuenta integrada para el acceso como invitado al equipo o dominio
+Account Type    : 
+Account Created : Fri Jan 28 00:21:26 2022 Z
+Name            :  
+Last Login Date : Never
+Pwd Reset Date  : Never
+Pwd Fail Date   : Never
+Login Count     : 0
+  --> Password does not expire
+  --> Account Disabled
+  --> Password not required
+  --> Normal user account
+
+Username        : DefaultAccount [503]
+SID             : S-1-5-21-269786116-1385572242-1118145320-503
+Full Name       : 
+User Comment    : Cuenta de usuario administrada por el sistema.
+Account Type    : 
+Account Created : Fri Jan 28 00:21:26 2022 Z
+Name            :  
+Last Login Date : Never
+Pwd Reset Date  : Never
+Pwd Fail Date   : Never
+Login Count     : 0
+  --> Password does not expire
+  --> Account Disabled
+  --> Password not required
+  --> Normal user account
+
+Username        : WDAGUtilityAccount [504]
+SID             : S-1-5-21-269786116-1385572242-1118145320-504
+Full Name       : 
+User Comment    : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+Account Type    : 
+Account Created : Fri Jan 28 00:21:26 2022 Z
+Name            :  
+Last Login Date : Never
+Pwd Reset Date  : Thu Nov 19 07:30:15 2020 Z
+Pwd Fail Date   : Never
+Login Count     : 0
+  --> Account Disabled
+  --> Normal user account
+
+Username        : joaqu [1001]
+SID             : S-1-5-21-269786116-1385572242-1118145320-1001
+Full Name       : Joaquin
+User Comment    : 
+Account Type    : 
+Account Created : Fri Jan 28 00:29:44 2022 Z
+Name            : Joaquin
+InternetName    : 
+Last Login Date : Never
+Pwd Reset Date  : Fri Jan 28 00:29:44 2022 Z
+Pwd Fail Date   : Never
+Login Count     : 0
+  --> Password does not expire
+  --> Normal user account
+
+-------------------------
+Group Membership Information
+-------------------------
+Group Name    : Usuarios [3]
+LastWrite     : Fri Jan 28 00:41:41 2022 Z
+Group Comment : Los usuarios no pueden hacer cambios accidentales o intencionados en el sistema y pueden ejecutar la mayoría de aplicaciones
+Users :
+  S-1-5-4
+  S-1-5-11
+  S-1-5-21-269786116-1385572242-1118145320-1001
+
+Group Name    : Lectores del registro de eventos [0]
+LastWrite     : Thu Oct 21 15:12:33 2021 Z
+Group Comment : Los miembros de este grupo pueden leer registros de eventos del equipo local.
+Users         : None
+
+Group Name    : Invitados [1]
+LastWrite     : Thu Oct 21 15:21:20 2021 Z
+Group Comment : De forma predeterminada, los invitados tienen el mismo acceso que los miembros del grupo Usuarios, excepto la cuenta de invitado que tiene más restricciones
+Users :
+  S-1-5-21-269786116-1385572242-1118145320-501
+
+Group Name    : System Managed Accounts Group [1]
+LastWrite     : Thu Oct 21 15:21:20 2021 Z
+Group Comment : Los miembros de este grupo los administra el sistema.
+Users :
+  S-1-5-21-269786116-1385572242-1118145320-503
+
+Group Name    : Usuarios COM distribuidos [0]
+LastWrite     : Thu Oct 21 15:12:33 2021 Z
+Group Comment : Los miembros pueden iniciar, activar y usar objetos de COM distribuido en este equipo.
+Users         : None
+
+Group Name    : Administradores [2]
+LastWrite     : Fri Jan 28 00:39:41 2022 Z
+Group Comment : Los administradores tienen acceso completo y sin restricciones al equipo o dominio
+Users :
+  S-1-5-21-269786116-1385572242-1118145320-500
+  S-1-5-21-269786116-1385572242-1118145320-1001
+
+Group Name    : Device Owners [0]
+LastWrite     : Thu Oct 21 15:12:33 2021 Z
+Group Comment : Los miembros de este grupo pueden cambiar la configuración de todo el sistema.
+Users         : None
+
+Group Name    : Usuarios de administración remota [0]
+LastWrite     : Thu Oct 21 15:12:33 2021 Z
+Group Comment : Los miembros de este grupo pueden acceder a los recursos de WMI mediante protocolos de administración (como WS-Management a través del servicio Administración remota de Windows). Esto se aplica solo a los espacios de nombres de WMI que conceden acceso al usuario.
+Users         : None
+
+Group Name    : Usuarios del registro de rendimiento [0]
+LastWrite     : Thu Oct 21 15:12:33 2021 Z
+Group Comment : Los miembros de este grupo pueden programar contadores de registro y rendimiento, habilitar proveedores de seguimiento y recopilar seguimientos de eventos localmente y a través del acceso remoto a este equipo
+Users         : None
+
+Group Name    : Hyper-V Administrators [0]
+LastWrite     : Thu Nov 19 07:30:15 2020 Z
+Group Comment : Members of this group have complete and unrestricted access to all features of Hyper-V.
+Users         : None
+
+Group Name    : Usuarios del monitor de sistema [0]
+LastWrite     : Thu Oct 21 15:12:33 2021 Z
+Group Comment : Los miembros de este grupo tienen acceso a los datos del contador de rendimiento de forma local y remota
+Users         : None
+
+Group Name    : IIS_IUSRS [1]
+LastWrite     : Thu Oct 21 15:12:33 2021 Z
+Group Comment : Grupo integrado usado por Internet Information Services.
+Users :
+  S-1-5-17
+
+Analysis Tips:
+ - For well-known SIDs, see http://support.microsoft.com/kb/243330
+     - S-1-5-4  = Interactive
+     - S-1-5-11 = Authenticated Users
+ - Correlate the user SIDs to the output of the ProfileList plugin
+
+----------------------------------------

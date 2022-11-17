@@ -1,0 +1,8 @@
+
+La IP Host dada: 192.168.56.1
+El estado de la IP es: up
+El protocolo es: tcp
+port: 135	state: open
+port: 139	state: open
+port: 445	state: open
+Los puertos abiertos son: 135,139,445
